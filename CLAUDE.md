@@ -92,8 +92,9 @@ mono eyebrow/anotacije. Tokeni su u `:root` svakog fajla.
 
 ## Otvorena pitanja / TODO
 
-- `vezba-00.html`: preostao placeholder `[dopuniti: dan, vreme, sala]` za termin
-  vežbi (slajd „Format"). Kad se upiše, ukloniti `<span class="todo">` omotač.
+- Nema otvorenih placeholdera. **Pravilo:** u prezentacije se ne upisuju podaci
+  koji se menjaju iz godine u godinu (školska godina, dan/vreme/sala termina,
+  datumi) — materijali moraju važiti svake godine bez izmena.
 
 ## Razno
 
