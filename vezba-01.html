@@ -232,7 +232,11 @@
   .qr-corner { position: absolute; top: 0; right: 0; display: flex; flex-direction: column; align-items: center; gap: 10px; }
   .qr-row { display: flex; align-items: center; gap: 24px; margin-top: 44px; flex-wrap: wrap; }
   .qr-row .qr-box svg { width: 150px; height: 150px; }
-  @media (max-width: 860px) { .qr-corner { display: none; } }
+  .has-qr h1, .has-qr .eyebrow { padding-right: 190px; }
+  @media (max-width: 860px) {
+    .qr-corner { display: none; }
+    .has-qr h1, .has-qr .eyebrow { padding-right: 0; }
+  }
 
   /* navigacija */
   #counter {
@@ -279,7 +283,7 @@
      1 · Naslov
      ============================================================ -->
 <section class="slide">
-  <div class="slide-inner" style="position:relative">
+  <div class="slide-inner has-qr" style="position:relative">
     <div class="qr-corner">
       <div class="qr-box"><svg viewBox="0 0 33 33"><use href="#qrcode"/></svg></div>
       <div class="qr-cap">materijali online</div>
