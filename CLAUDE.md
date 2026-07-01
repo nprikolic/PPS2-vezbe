@@ -9,7 +9,10 @@ koriste sajt kao referencu kod kuće.
   nastavnik: Vladan Ilić — vilic@grf.bg.ac.rs
 - **Live sajt:** https://kabinet330.github.io/PPS2-vezbe/ (GitHub Pages, auto-deploy sa `main`)
 - **Repo:** https://github.com/kabinet330/PPS2-vezbe
-- **Izvorni materijali** (PDF primeri; Excel fajlovi postavki — samo izvor za štampu): `D:\My Drive\Nastava\PPS2\Vežba X\`
+- **Izvorni materijali** (PDF primeri; Excel fajlovi postavki — samo izvor za štampu):
+  `materijali/vezba-XX/` u ovom repou — lokalna arhiva, u `.gitignore`, NE ide na
+  GitHub. Inventar (šta imamo/nemamo): `materijali/LOG.md`. Starije rasute kopije
+  ostale su po `D:\My Drive\Nastava\PPS2\…`
 
 **VAŽNO — postavke su na papiru:** studenti dobijaju odštampane postavke i rade
 zadatke ručno (digitron + pribor za crtanje), namerno — da ne bi koristili AI za
@@ -23,6 +26,7 @@ index.html        — početna strana sa spiskom vežbi (00, 01, …)
 vezba-00.html     — uvodni čas: organizacija nastave (sadrži [dopuniti] placeholdere!)
 vezba-01.html     — Vežba 1: vremenska i prostorna akumulacija
 _template.html    — šablon za nove vežbe; sadrži sve komponente i drawChart()
+materijali/       — izvorni materijali svih vežbi (u .gitignore!); LOG.md = inventar
 CLAUDE.md         — ovaj fajl
 ```
 
@@ -93,11 +97,13 @@ mono eyebrow/anotacije. Tokeni su u `:root` svakog fajla.
   (vilic@grf.bg.ac.rs). Termin konsultacija NAMERNO bez datuma („u dogovoru,
   početkom semestra") — ne izmišljati ga.
 
-## Stanje (jun 2026)
+## Stanje (jul 2026)
 
 Gotove i objavljene: vežba 00 (organizacija — kompletno popunjena) i vežba 01.
 Sledeće na redu: vežba 02 „Analiza vremenske serije i prognoza saobraćaja" —
-čekaju se izvorni materijali u `D:\My Drive\Nastava\PPS2\Vežba 2\`.
+izvorni materijali stigli (`materijali/vezba-02/`). Materijali za vežbe 1–9 su
+kompletirani u `materijali/` (konsolidovano sa Gmaila i Drive-a, jul 2026);
+za vežbu 10 postoje samo na sajtu fakulteta (šifra PPS2_330) — v. `materijali/LOG.md`.
 
 ## Otvorena pitanja / TODO
 
